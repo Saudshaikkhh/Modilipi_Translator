@@ -63,3 +63,39 @@ from PIL import Image
 # Specify the Tesseract executable path (only needed on Windows if it's not in PATH)
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # For Windows
 ```
+## Running the Application
+Clone this repository or download the project files to your local system.
+Navigate to the project directory.
+Launch the Streamlit app by running:
+```bash
+streamlit run app.py
+```
+Open your web browser and go to `http://localhost:8501` to use the translator.
+
+## File Structure
+The project directory is organized as follows:
+
+```php
+.
+├── app.py                   # Main application script
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+├── models/                  # Pre-trained models for translation (if applicable)
+├── data/                    # Sample datasets for testing
+├── static/                  # Static files (e.g., images, CSS, etc.)
+└── templates/               # HTML templates (if any)
+```
+## Contributing
+Contributions are welcome! If you have suggestions or want to report issues, feel free to open a pull request or raise an issue in the repository.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+- Tesseract OCR
+- Streamlit Documentation
+- TensorFlow and Pillow for their excellent libraries
+- Special thanks to the developers of Modi Lipi datasets and resources.
+```arduino
+This expanded README file includes detailed setup instructions, features, and a project overview, ensuring clarity for users and contributors.
+```
